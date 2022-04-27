@@ -21,4 +21,4 @@ document.addEventListener("keydown", e => {
     if(e.code==='Escape'){
         instance.close();
     };
-  });}
+  }, {once: true});}
